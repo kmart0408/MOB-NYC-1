@@ -1,12 +1,10 @@
 //
 //  AppDelegate.swift
-//  Lesson04InClass
+//  FightClub
 //
-//  Created by Rudd Taylor on 12/15/14.
-//  Copyright (c) 2014 GA. All rights reserved.
+//  Created by Kelsey Martin on 1/14/15.
+//  Copyright (c) 2015 Kelsey Martin. All rights reserved.
 //
-
-//this has a bunch of functions that get called when the app goes into various states EX; the background (see func applicationDidEnterBackground)
 
 import UIKit
 

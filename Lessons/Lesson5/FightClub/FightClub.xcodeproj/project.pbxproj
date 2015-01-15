@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC2E7FB1A674ECC00CDD505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2E7FA1A674ECC00CDD505 /* AppDelegate.swift */; };
+		4CC2E7FD1A674ECC00CDD505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2E7FC1A674ECC00CDD505 /* ViewController.swift */; };
+		4CC2E8001A674ECC00CDD505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2E7FE1A674ECC00CDD505 /* Main.storyboard */; };
+		4CC2E8021A674ECC00CDD505 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2E8011A674ECC00CDD505 /* Images.xcassets */; };
+		4CC2E8051A674ECC00CDD505 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2E8031A674ECC00CDD505 /* LaunchScreen.xib */; };
+		4CC2E8111A674ECC00CDD505 /* FightClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2E8101A674ECC00CDD505 /* FightClubTests.swift */; };
+		4CC2E81B1A674F3600CDD505 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2E81A1A674F3600CDD505 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CC2E80B1A674ECC00CDD505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC2E7ED1A674ECC00CDD505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC2E7F41A674ECC00CDD505;
+			remoteInfo = FightClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC2E7F51A674ECC00CDD505 /* FightClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC2E7F91A674ECC00CDD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC2E7FA1A674ECC00CDD505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CC2E7FC1A674ECC00CDD505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CC2E7FF1A674ECC00CDD505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CC2E8011A674ECC00CDD505 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CC2E8041A674ECC00CDD505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CC2E80A1A674ECC00CDD505 /* FightClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC2E80F1A674ECC00CDD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC2E8101A674ECC00CDD505 /* FightClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightClubTests.swift; sourceTree = "<group>"; };
+		4CC2E81A1A674F3600CDD505 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC2E7F21A674ECC00CDD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC2E8071A674ECC00CDD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC2E7EC1A674ECC00CDD505 = {
+			isa = PBXGroup;
+			children = (
+				4CC2E7F71A674ECC00CDD505 /* FightClub */,
+				4CC2E80D1A674ECC00CDD505 /* FightClubTests */,
+				4CC2E7F61A674ECC00CDD505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC2E7F61A674ECC00CDD505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2E7F51A674ECC00CDD505 /* FightClub.app */,
+				4CC2E80A1A674ECC00CDD505 /* FightClubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC2E7F71A674ECC00CDD505 /* FightClub */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2E7FA1A674ECC00CDD505 /* AppDelegate.swift */,
+				4CC2E7FC1A674ECC00CDD505 /* ViewController.swift */,
+				4CC2E7FE1A674ECC00CDD505 /* Main.storyboard */,
+				4CC2E8011A674ECC00CDD505 /* Images.xcassets */,
+				4CC2E8031A674ECC00CDD505 /* LaunchScreen.xib */,
+				4CC2E7F81A674ECC00CDD505 /* Supporting Files */,
+				4CC2E81A1A674F3600CDD505 /* Player.swift */,
+			);
+			path = FightClub;
+			sourceTree = "<group>";
+		};
+		4CC2E7F81A674ECC00CDD505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2E7F91A674ECC00CDD505 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC2E80D1A674ECC00CDD505 /* FightClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2E8101A674ECC00CDD505 /* FightClubTests.swift */,
+				4CC2E80E1A674ECC00CDD505 /* Supporting Files */,
+			);
+			path = FightClubTests;
+			sourceTree = "<group>";
+		};
+		4CC2E80E1A674ECC00CDD505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2E80F1A674ECC00CDD505 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC2E7F41A674ECC00CDD505 /* FightClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC2E8141A674ECC00CDD505 /* Build configuration list for PBXNativeTarget "FightClub" */;
+			buildPhases = (
+				4CC2E7F11A674ECC00CDD505 /* Sources */,
+				4CC2E7F21A674ECC00CDD505 /* Frameworks */,
+				4CC2E7F31A674ECC00CDD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FightClub;
+			productName = FightClub;
+			productReference = 4CC2E7F51A674ECC00CDD505 /* FightClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CC2E8091A674ECC00CDD505 /* FightClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC2E8171A674ECC00CDD505 /* Build configuration list for PBXNativeTarget "FightClubTests" */;
+			buildPhases = (
+				4CC2E8061A674ECC00CDD505 /* Sources */,
+				4CC2E8071A674ECC00CDD505 /* Frameworks */,
+				4CC2E8081A674ECC00CDD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC2E80C1A674ECC00CDD505 /* PBXTargetDependency */,
+			);
+			name = FightClubTests;
+			productName = FightClubTests;
+			productReference = 4CC2E80A1A674ECC00CDD505 /* FightClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC2E7ED1A674ECC00CDD505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kelsey Martin";
+				TargetAttributes = {
+					4CC2E7F41A674ECC00CDD505 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4CC2E8091A674ECC00CDD505 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4CC2E7F41A674ECC00CDD505;
+					};
+				};
+			};
+			buildConfigurationList = 4CC2E7F01A674ECC00CDD505 /* Build configuration list for PBXProject "FightClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC2E7EC1A674ECC00CDD505;
+			productRefGroup = 4CC2E7F61A674ECC00CDD505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC2E7F41A674ECC00CDD505 /* FightClub */,
+				4CC2E8091A674ECC00CDD505 /* FightClubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC2E7F31A674ECC00CDD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC2E8001A674ECC00CDD505 /* Main.storyboard in Resources */,
+				4CC2E8051A674ECC00CDD505 /* LaunchScreen.xib in Resources */,
+				4CC2E8021A674ECC00CDD505 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC2E8081A674ECC00CDD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC2E7F11A674ECC00CDD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC2E7FD1A674ECC00CDD505 /* ViewController.swift in Sources */,
+				4CC2E81B1A674F3600CDD505 /* Player.swift in Sources */,
+				4CC2E7FB1A674ECC00CDD505 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC2E8061A674ECC00CDD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC2E8111A674ECC00CDD505 /* FightClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CC2E80C1A674ECC00CDD505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC2E7F41A674ECC00CDD505 /* FightClub */;
+			targetProxy = 4CC2E80B1A674ECC00CDD505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CC2E7FE1A674ECC00CDD505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC2E7FF1A674ECC00CDD505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CC2E8031A674ECC00CDD505 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC2E8041A674ECC00CDD505 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC2E8121A674ECC00CDD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CC2E8131A674ECC00CDD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC2E8151A674ECC00CDD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FightClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CC2E8161A674ECC00CDD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FightClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CC2E8181A674ECC00CDD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FightClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FightClub.app/FightClub";
+			};
+			name = Debug;
+		};
+		4CC2E8191A674ECC00CDD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FightClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FightClub.app/FightClub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC2E7F01A674ECC00CDD505 /* Build configuration list for PBXProject "FightClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC2E8121A674ECC00CDD505 /* Debug */,
+				4CC2E8131A674ECC00CDD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC2E8141A674ECC00CDD505 /* Build configuration list for PBXNativeTarget "FightClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC2E8151A674ECC00CDD505 /* Debug */,
+				4CC2E8161A674ECC00CDD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CC2E8171A674ECC00CDD505 /* Build configuration list for PBXNativeTarget "FightClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC2E8181A674ECC00CDD505 /* Debug */,
+				4CC2E8191A674ECC00CDD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC2E7ED1A674ECC00CDD505 /* Project object */;
+}
