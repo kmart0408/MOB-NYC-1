@@ -23,9 +23,9 @@ class Player: NSObject {
 }
 
 class GoodPlayer: Player {
-    init(gpDamage:Int) {
+    init(gpMessage: String, gpDamage:Int) {
         super.init()
-        message = "hhhhhh"
+        message = gpMessage
         damage = gpDamage
     }
 }
@@ -34,7 +34,7 @@ class BadPlayer: Player {
     
     init(bpDamage:Int) {
         super.init()
-        message = "hhhhhh"
+        message = "Ahhh"
         damage = bpDamage
     }
     
@@ -47,14 +47,18 @@ class BadPlayer: Player {
 
 let ozark = BadPlayer(bpMessage: "I'm sorry", bpDam: -1)
 
-ozark.attack()
-
 let angel = GoodPlayer(gpMessage: "HiYah!", gpDamage: 25)
 
-angel.attack()
+// angel.attack().1
 
 
-
+class Match {
+//ozark.healthMetric = ozark.healthMetric - angel.attack().1
+    var Fighters: GoodPlayer
+    
+    
+    
+}
 
 
 
