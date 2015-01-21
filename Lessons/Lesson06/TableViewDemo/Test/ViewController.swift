@@ -36,9 +36,9 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-    }
     
     //* This whole function is telling the app to move to a new view.  For this, what happens when you tap on one of the table's cells [didSelectRowAtIndexPath].  From that new view controller, you can call a different function.
+=======
+>>>>>>> f5cfa63e8c880b20d089a281c71f144cb6f8c0e6
 }
 
