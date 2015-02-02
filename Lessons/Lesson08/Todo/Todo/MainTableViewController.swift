@@ -9,8 +9,8 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
-
-    var todos = ["groceries", "homework", "walk dog"]
+    
+    var todos = [["name": "Minnie Mouse", "status": "Complete", "due date": "Sunday 1/25/15"], ["name": "Goldie Hawn", "status": "Incomplete", "due date": "Wednesday 1/28/15"], ["name": "Ronald McDonald", "status": "Incomplete", "due date": "Thursday 1/22/15"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,9 +49,11 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
-        cell.textLabel?.text = todos[indexPath.row]
+        cell.textLabel?.text = todos[indexPath.row]["name"]! + todos[indexPath.row]["status"]! + todos[indexPath.row]["due date"]!
         return cell
     }
+    
+    
 
     /*
     // Override to support conditional editing of the table view.

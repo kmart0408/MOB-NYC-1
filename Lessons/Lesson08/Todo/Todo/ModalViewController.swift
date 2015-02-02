@@ -16,6 +16,8 @@ class ModalViewController: UIViewController {
     @IBAction func didTapButton(sender: AnyObject) {
         todoViewController?.todos.append(textField.text)
         
+        // Make a dictionary from the values in the text field, aka. name, status and due date. Then put this dictionary within the parenthesis for the append.function.
+        
         dismissViewControllerAnimated(true, completion: nil)
     }
     
