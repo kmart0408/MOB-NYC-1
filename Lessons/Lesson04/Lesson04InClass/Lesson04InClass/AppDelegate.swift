@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 GA. All rights reserved.
 //
 
+//this has a bunch of functions that get called when the app goes into various states EX; the background (see func applicationDidEnterBackground)
+
 import UIKit
 
 @UIApplicationMain

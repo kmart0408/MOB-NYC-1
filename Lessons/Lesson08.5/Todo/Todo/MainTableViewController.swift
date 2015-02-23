@@ -52,6 +52,11 @@ class MainTableViewController: UITableViewController {
         cell.textLabel?.text = todos[indexPath.row]
         return cell
     }
+    
+    var cell = self.tableView(tableView,
+        cellForRowAtIndexPath: indexPath: NSIndexPath
+    
+
 
     /*
     // Override to support conditional editing of the table view.
