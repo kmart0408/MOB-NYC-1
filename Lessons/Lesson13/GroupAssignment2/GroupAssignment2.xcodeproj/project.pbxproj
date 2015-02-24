@@ -13,6 +13,7 @@
 		4CBEE1211A95755C00B87C6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBEE1201A95755C00B87C6C /* Images.xcassets */; };
 		4CBEE1241A95755C00B87C6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBEE1221A95755C00B87C6C /* LaunchScreen.xib */; };
 		4CBEE1301A95755C00B87C6C /* GroupAssignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEE12F1A95755C00B87C6C /* GroupAssignment2Tests.swift */; };
+		4CBEE13A1A95759700B87C6C /* Athletes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CBEE1391A95759700B87C6C /* Athletes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4CBEE1291A95755C00B87C6C /* GroupAssignment2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupAssignment2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBEE12E1A95755C00B87C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBEE12F1A95755C00B87C6C /* GroupAssignment2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAssignment2Tests.swift; sourceTree = "<group>"; };
+		4CBEE1391A95759700B87C6C /* Athletes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Athletes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		4CBEE10B1A95755C00B87C6C = {
 			isa = PBXGroup;
 			children = (
+				4CBEE1391A95759700B87C6C /* Athletes.plist */,
 				4CBEE1161A95755C00B87C6C /* GroupAssignment2 */,
 				4CBEE12C1A95755C00B87C6C /* GroupAssignment2Tests */,
 				4CBEE1151A95755C00B87C6C /* Products */,
@@ -194,6 +197,7 @@
 			files = (
 				4CBEE11F1A95755C00B87C6C /* Main.storyboard in Resources */,
 				4CBEE1241A95755C00B87C6C /* LaunchScreen.xib in Resources */,
+				4CBEE13A1A95759700B87C6C /* Athletes.plist in Resources */,
 				4CBEE1211A95755C00B87C6C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

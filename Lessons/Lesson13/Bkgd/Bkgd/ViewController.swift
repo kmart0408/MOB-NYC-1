@@ -10,16 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var backgroundSwitch: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    self.backgroundSwitch.addTarget(self, action: "didChangeSwitch", forControlEvents: UIControlEvents.ValueChanged)
 }
 
+    func didChangeSwitch() {
+        if self.backgroundSwitch.on = NSUserDefaults {
+            self.label.font = UIFont.systemFontOfSize
+            (10)
+            NSUserDefaults.standardUserDefaults().setBool(self.backgroundSwitch.on, forKey: "Switch is On")

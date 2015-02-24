@@ -8,18 +8,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDataSource {
+    
+    let athletes = ["Carmello", "Shumphert", "Lee"]
+    
+    @IBOutlet weak var athleteList: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if let documentPath = NSBundle.mainBundle().pathForResource(athleteList: String?, ofType: "plist")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return athletes.count
     }
-
-
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+        
+        cell.textLabel?.text = athletes[indexPath.row]
+        return cell
+    }
 }
+
 
